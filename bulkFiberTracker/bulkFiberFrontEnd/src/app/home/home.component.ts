@@ -23,7 +23,6 @@ export class HomeComponent implements OnInit {
 
 
   public login(){
-    const url = '';
     this.route.navigate(["BulkDisplay/dasboard"]);
   }
 
